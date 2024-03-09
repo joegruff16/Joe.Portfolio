@@ -1,10 +1,10 @@
-
+/* Main Top Nav Bar Background Color */
 .mainnav {
     background-color: #010101;
     overflow: hidden;
   }
   
-
+/* Nav Bar Links */
   .mainnav a {
     float: left;
     color: #f2f2f2;
@@ -14,13 +14,13 @@
     font-size: 20px;
   }
   
- 
+ /* Color of Links during Hover */
   .mainnav a:hover {
     background-color: #dddddd64;
     color: black;
   }
   
-  
+  /* Home Active Color */
   .mainnav a.active {
     background-color:grey;
     color: white;
