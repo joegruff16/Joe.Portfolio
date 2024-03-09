@@ -1,4 +1,34 @@
 
+.mainnav {
+    background-color: #010101;
+    overflow: hidden;
+  }
+  
+
+  .mainnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+ 
+  .mainnav a:hover {
+    background-color: #dddddd64;
+    color: black;
+  }
+  
+  
+  .mainnav a.active {
+    background-color:grey;
+    color: white;
+  }
+
+
+
+
 .header {
 
 }
