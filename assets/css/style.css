@@ -1,17 +1,17 @@
 /* Main Top Nav Bar Background Color */
 .mainnav {
-    background-color: #010101;
+    background-color: none;
     overflow: hidden;
   }
   
 /* Nav Bar Links */
   .mainnav a {
-    float: left;
-    color: #f2f2f2;
+    float: initial;
+    color: #f2f2f2f7;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
   }
   
  /* Color of Links during Hover */
@@ -23,7 +23,7 @@
   /* Home Active Color */
   .mainnav a.active {
     background-color:grey;
-    color: white;
+    color: rgb(246, 246, 249);
   }
 
 
@@ -33,6 +33,7 @@
 
 /* Font and Font size of the whole page */
 body, html {
+    background-color: lightgrey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
