@@ -48,24 +48,31 @@ h1 {
 /* Font and Font size of the whole page */
 body, html {
     background-color: silver;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    height: 100%
 }
-
-.philadelphia{
-  height: 800px;
-  width: 75%;
-  margin: 5px;
-  background-image: url("/homework/Joe.Portfolio/assets/images/philadelphia-skyline.jpg");
+/* Parallax scrolling effect */
+.parallax {
+  height: 100%;
+  background-image: url("/homework/Joe.Portfolio/assets/images/philadelphia2.jpg");
   background-attachment: fixed;
   background-position: center;
-  padding: 1%;
+  background-size: cover;
 
 }
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 p {
-
+  padding: 1px;
+  font-weight: 400;
+  margin: 4px;
+  color: rgb(67, 73, 245);
 }
 
-.footer {
+footer{
 
 }
