@@ -5,7 +5,8 @@
   font-family: 'Rubik', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  color: rgb(10, 10, 10);
+  color: #f2f2f2;
+  background-color: rgb(10, 10, 10);
 }
 
 /* Main Top Nav Bar Background Color */
@@ -43,17 +44,16 @@
 
 /* Font and Font size of the whole page */
 body, html {
-    background-color: silver;
-    height: 100%
+    
 }
+
 /* Parallax scrolling effect */
 .parallax {
   height: 100%;
-  background-image: url("/homework/Joe.Portfolio/assets/images/philadelphia2.jpg");
+  background-image: url(/homework/Joe.Portfolio/assets/images/philadelphia2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -97,6 +97,17 @@ h2 {
 h3 {
   font-size: 30px;
 }
+
+/* Project Gallery FlexBox */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 
 footer{
 
