@@ -68,7 +68,8 @@ body, html {
 
 p {
   padding: 1px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 300;
   margin: 4px;
   color: rgb(67, 73, 245);
 }
