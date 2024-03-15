@@ -14,10 +14,14 @@ body, html {
   height: 100%;
 }
 
+.hero-section {
+  background-color: green;
+
+}
+
 /* Background image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/homework/Joe.Portfolio/assets/images/me.JPG");
 
 /* Height of image */
 height: 75%;
@@ -25,7 +29,7 @@ height: 75%;
 /* Scale to all screen sizes */
 background-position: top right;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 position: relative;
 }
 
