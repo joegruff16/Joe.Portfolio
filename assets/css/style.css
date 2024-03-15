@@ -19,9 +19,13 @@ body, html {
 }
 
 .about-text {
-  width: 50%
-
+  margin: 25px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  padding-left: 40px;
 }
+
 .hero-section {
   background-color: none;
   position: relative;
@@ -74,10 +78,10 @@ body, html {
 
 /* Font for text of About Me Section */
 p {
-  padding: 1px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 25px;
   font-weight: 300;
-  margin: auto;
   color: rgb(67, 73, 245);
   
 }
@@ -90,7 +94,8 @@ span {
 
 ul li {
   font-size: 25px;
-  margin: 2%;
+  margin: 25px;
+  scroll-padding: 5px;
 }
 
 .aboutme {
