@@ -1,8 +1,15 @@
 # Joe's Portfolio
+=================
 
 ## Description
 
+I developed my own portolio website that has a responsive nav bar with social media buttons, a custom google font and a display of my porfolio of projects. I only have two projects so far so I used some place holder images. Since I was born in Philadelphia, I made my portfolio a Philly theme. When you click each image it takes you to my project or the image placeholder. 
+
 ## Finished Product 
+
+This is my completed Portfolio Project. I will continue to make updates as I grow in my knowledge of HTML, CSS, and JavaScript:
+
+!["Joe's Portfolio"](/homework/Joe.Portfolio/assets/images/finished-portfolio.png "Horiseon Finished Product")
 
 ## Credits
 
@@ -21,3 +28,5 @@
 MIT see more details in repo
 
 ## Live Link
+
+## GitHub Repo
