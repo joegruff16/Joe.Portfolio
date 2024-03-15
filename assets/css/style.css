@@ -7,10 +7,33 @@
   font-weight: 400;
   color: #f2f2f2;
   background-color:rgb(4, 4, 4);
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Background image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/homework/Joe.Portfolio/assets/images/me.JPG");
+
+/* Height of image */
+height: 75%;
+
+/* Scale to all screen sizes */
+background-position: top right;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
 }
 
 /* Main Top Nav Bar Background Color */
 .header {
+  text-align: center;
+  padding: 20px 6px;
+  margin-left: 2px 10px;
 
 }
 
@@ -43,9 +66,7 @@
 
 
 /* Font and Font size of the whole page */
-body, html {
-    
-}
+
 
 /* Parallax scrolling effect */
 
@@ -54,7 +75,7 @@ p {
   padding: 1px;
   font-size: 25px;
   font-weight: 300;
-  margin: 4px;
+  margin: auto;
   color: rgb(67, 73, 245);
   
 }
@@ -152,15 +173,21 @@ div.desc {
 
 /* Set a specific color for each brand */
 
-/* Facebook */
+/* GitHub */
 .fa-github{
   background: orangered;
   color: white;
 }
 
-/* Twitter */
+/* Linkedin */
 .fa-linkedin {
   background: #3B5998;
+  color: white;
+}
+
+/* Gmail */
+.fa-google{
+  background: green;
   color: white;
 }
 
