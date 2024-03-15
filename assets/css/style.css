@@ -15,7 +15,7 @@ body, html {
 }
 
 .about-image {
-  width: 80%;
+  width: 75%;
 }
 
 .about-text {
@@ -123,32 +123,32 @@ h3 {
 
 /* Project Image Gallery */
 div.gallery {
-  border: 1px solid #979494;
+  border: solid rgb(246, 246, 249);
 }
 
 div.gallery:hover {
-  border: 1px solid #9a9999;
+  border: solid rgb(67, 73, 245);
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+  width: 90%;
+  height: 90%;
+  margin-right: 5px;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
-  color: aliceblue;
-}
-
-* {
-  box-sizing: border-box;
+  color: #f2f2f2;
+  font-weight: 300;
 }
 
 .responsive {
-  padding: 6 6px;
-  float: right;
-  width: 24.99999%;
+  margin-left: 25px;
+  padding-bottom: 50px;
+  float: left;
+  flex: auto;
+  width: 20%;
 }
 
 @media only screen and (max-width: 700px) {
