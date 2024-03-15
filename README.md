@@ -29,4 +29,8 @@ MIT see more details in repo
 
 ## Live Link
 
+<https://joegruff16.github.io/Joe.Portfolio/>
+
 ## GitHub Repo
+
+<https://github.com/joegruff16/Joe.Portfolio>
