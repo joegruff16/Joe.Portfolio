@@ -9,7 +9,7 @@ I developed my own portolio website that has a responsive nav bar with social me
 
 This is my completed Portfolio Project. I will continue to make updates as I grow in my knowledge of HTML, CSS, and JavaScript:
 
-!["Joe's Portfolio"](/homework/Joe.Portfolio/assets/images/finished-portfolio.png "Horiseon Finished Product")
+!["Joe's Portfolio"](/assets/images/finished-portfolio.png "My Portfolio")
 
 ## Credits
 
