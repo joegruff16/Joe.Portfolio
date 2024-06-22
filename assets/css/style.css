@@ -7,13 +7,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
   color: #f2f2f2;
-  /* background-color: rgb(4, 4, 4); */
   box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100%;
+body {
+  background-color: hsl(240, 83%, 50%);
 }
 
 .about-image {
@@ -49,25 +47,14 @@ html {
   margin-left: 2px 10px;
 }
 
-.mainnav {
-  background-color: none;
-  overflow: hidden;
-}
-
 /* Nav Bar Links */
 .mainnav a {
-  float: initial;
   color: #f2f2f2;
-  text-align: center;
-  padding: 20px 80px;
-  text-decoration: none;
-  font-size: 24px;
 }
 
 /* Color of Links during Hover */
 .mainnav a:hover {
   background-color: #dddddd64;
-  color: black;
 }
 
 /* Home Active Color */
@@ -136,33 +123,6 @@ div.desc {
   text-align: center;
   color: #f2f2f2;
   font-weight: 300;
-}
-
-.responsive {
-  margin-left: 25px;
-  padding-bottom: 50px;
-  float: left;
-  flex: auto;
-  width: 20%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Style all font awesome icons */

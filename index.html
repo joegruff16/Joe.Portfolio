@@ -19,7 +19,7 @@
         <!-- Main Header and Nav Bar -->
         <header class="header">
             <section id="home" class="home"></section>
-            <nav class="navbar bg-light-body-tertiary">
+            <nav class="mainnav navbar bg-light-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand mb-0 h1" href="#home">Home</a>
                     <a class="navbar-brand" href="#aboutme">About Me</a>
@@ -67,42 +67,86 @@
             </div>
         </section>
         <section id="projects" class="projects">
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="https://joegruff16.github.io/Improving-Accessibility-with-HTML-CSS-and-Git/">
-                        <img src="./assets/images/coderefactor.png" alt="Code Refactor">
-                    </a>
-                    <div class="desc">Horiseon Code Refactor</div>
+            <div class="container-fluid">
+                <h2 id="#projects">Projects</h2>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/coderefactor.png" class="card-img-top" alt="refactor">
+                    <div class="card-body">
+                        <h5 class="card-title">Horiseon Code Refactor</h5>
+                        <p class="card-text">Refactored the code of this website without changing the appearance to make it more responsive.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="https://joegruff16.github.io/prework-study-guide/">
-                        <img src="./assets/images/study-guide.png" alt="Study Guide">
-                    </a>
-                    <div class="desc">Tech Study Guide</div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="https://www.pexels.com/photo/philadelphia-love-park-under-the-blue-sky-12304500/">
-                        <img src="./assets/images/love-trev-adams.jpg" alt="Brotherly Love">
-                    </a>
-                    <div class="desc">Love Park</div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="https://philly.eater.com/2016/10/13/13265012/genos-sign-racist-shake-shack-marlton-vedge-tasting-menu">
-                        <img src="./assets/images/genos.jpg" alt="Genos Philly">
-                    </a>
-                    <div class="desc">The Best Tourist Cheesteak</div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
         </section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="card carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/images/coderefactor.png" class="d-block w-50" alt="codefactor">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Horiseon Code Refactor</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <!-- Footer with copyright -->
-        <footer>
+        <footer class="connect">
             <h4>
                 <span>Joe Ruff's</span>
                 Portfolio 2024
